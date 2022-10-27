@@ -1,0 +1,133 @@
+* {
+    margin : 0px;
+    padding : 0px;
+}
+.header{
+    height :50px;
+}
+
+.body {
+    background-image: url('./../../Assets/login\ background.jpg');
+    height : 90vh;
+    background-size: contain; 
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    /* background-repeat:no-repeat; */
+}
+
+.center-body {
+    /* padding: 70px; */
+    /* padding-left: 50px; */
+    padding : 40px 5%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: white;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    height: fit-content;
+    width : 45%;
+    border-color: #E6E8EE;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 12%);
+    border-radius: 16px;
+    flex-wrap: wrap;
+}
+
+.input-box{
+    padding : 12px;
+    width: 96%;
+    size: 2px;
+    outline-width:1px;
+    border: 10px;
+    /* color: green; */
+    outline-style: solid;
+    border-radius: 5;
+    /* box-sizing: border-box; */
+    /* box-shadow: 0 2px 0 0 rgb(55 59 63 / 50%); */
+    outline-color:#e6e8ee;
+    margin-bottom : 20px;
+    margin-top : 5px;
+    
+    
+}
+.input-box:focus{
+    outline-color:#1cc29f;
+    outline-width: 2px;
+
+}
+.form{
+    justify-content: space-between;
+}
+.head{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+label {
+    /* padding: 10px; */
+    font-size: 16px;
+    font-weight: 300;
+}
+.submit{
+    background-color: #18a582;
+    width: 100%;
+    border: none;
+    height : 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.forgot-password{
+    font-weight: 700;
+    color: #18a582;
+    text-decoration: none;
+    text-align: center;
+}
+.hr-line {
+    width : 20%;
+    height: 2px;
+    border: none;
+    vertical-align: middle;
+    color: #e6e8ee;
+    background-color: #e6e8ee;
+    border-color: #e6e8#e6e8eeee;
+}
+.or {
+    display : flex;
+    color: #bdc9d4;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.inline {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.google-logo {
+    height: 24px;
+    width: 24px;
+    margin-right : 15px;
+}
+.google-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    border-color: #e6e8ee;
+    border-radius: 5px;
+    outline-width: 1px;
+    vertical-align: middle;
+    padding-top: 2%
+    /* box-shadow: 0 1px 0 0 rgb(55 59 63 / 50%); */
+}

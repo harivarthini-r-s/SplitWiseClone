@@ -1,0 +1,153 @@
+.signup-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin-left : 2rem;
+    
+}
+.logo-img img {
+    height: 12.5rem;
+    width: 12.5rem;
+}
+.logo-img{
+    justify-items: right;
+    margin-top: 6rem;
+    margin-right: 2rem;
+}
+.signup-contents{
+    margin-top: 6rem;
+    line-height: 20px;
+    margin-left: 1rem;
+}
+.signup-contents form {
+    line-height: 40px;
+}
+.signup-contents h3{
+    font-size: 16px;
+    color: #999;
+    font-weight: bold;  
+}
+.signup-contents span {
+    font-size: 24px;
+    font-weight:400;
+} 
+.signup-contents label {
+    font-weight: 400;
+}
+
+.submit-btn{
+    background-color: rgb(255, 82, 22);
+    /* width: auto; */
+    height: max-content;
+    padding: 10px 15px;
+    font-size: 24px;
+    margin-top: 5px;
+    cursor: pointer;
+    background: #ff652f;
+    color: #fff;
+    text-shadow: 0 -1px 0 #c83400;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+}
+.input-box-1{
+    padding : 5px;
+    width: 80%;
+    size: 2px;
+    outline-width:1px;
+    border: 10px;
+    /* color: green; */
+    outline-style: solid;
+    border-radius: 2px;
+    /* box-sizing: border-box; */
+    /* box-shadow: 0 2px 0 0 rgb(55 59 63 / 50%); */
+    outline-color:#cccccc;
+    margin-bottom : 20px;
+    /* margin-top : 5px; */
+    font-size: 32px;
+    
+}
+.input-box-1:focus{
+    outline-color: rgba(82,168,236,0.8);
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(82 168 236 / 60%);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(82 168 236 / 60%);
+}
+.input-box-2{
+    padding : 5px;
+    width: 80%;
+    size: 2px;
+    outline-width:1px;
+    border: 10px;
+    /* color: green; */
+    outline-style: solid;
+    border-radius: 2px;
+    /* box-sizing: border-box; */
+    /* box-shadow: 0 2px 0 0 rgb(55 59 63 / 50%); */
+    outline-color:#cccccc;
+    margin-bottom : 20px;
+    /* margin-top : 5px; */
+    font-size: 24px;
+}
+.input-box-2:focus{
+    outline-color: rgba(82,168,236,0.8);
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(82 168 236 / 60%);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(82 168 236 / 60%);
+}
+.sub {
+    display: flex;
+    /* vertical-align: middle; */
+}
+.googlelogo {
+    height: 16px;
+    width: 16px;
+    margin-right : 5px;
+}
+.googlebtn {
+    background-color: #fff;
+    height: 2rem;
+    padding: 4px 6px;
+    margin: 0 0 3px 0;
+    display: flex;
+    vertical-align: middle;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    /* border: 1px solid #cccccc; */
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05); 
+    border-radius: 5px;
+}
+.googlebtn a {
+    /* margin-top: 20px; */
+    font-size: 13px;
+    color: #777;
+    font-weight: 500;
+    /* box-shadow: 0 1px 0 0 rgb(55 59 63 / 50%); */
+}
+.sub-part{
+    display : flex;
+    margin-top : 0.75rem;
+}
+.sub-part h5 {
+    font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-right:1rem;
+}
+.foot{
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+}
+.foot a{
+    font-size: 14px;
+    color: #3191d6;
+}
+.foot a:hover{
+    color: #005580;
+    text-decoration: underline;
+}
+.foot h3{
+    font-weight: 400;
+    font-size: 14px;
+}
