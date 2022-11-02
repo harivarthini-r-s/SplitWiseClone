@@ -7,14 +7,14 @@
 }
 
 .body {
-    background-image: url('./../../Assets/login\ background.jpg');
+    background-image: url('./../../Assets/login-background.png');
     height : 90vh;
     background-size: contain; 
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
-    /* background-repeat:no-repeat; */
+    background-repeat:repeat-x;
 }
 
 .center-body {

@@ -4,7 +4,8 @@ const DropdownSignup = () => {
   return (
     <div>
     {/* <button> */}
-      <select class="modernized" name="user[default_currency]" id="user_default_currency"><option value="AED">AED (DH)</option>
+      <select class="modernized" name="user[default_currency]" id="user_default_currency">
+                                    <option value="AED">AED (DH)</option>
                                     <option value="AFN">AFN (Afs)</option>
                                     <option value="ALL">ALL (L)</option>
                                     <option value="AMD">AMD (AMD)</option>

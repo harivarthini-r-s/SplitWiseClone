@@ -1,0 +1,4 @@
+.friendHeader{
+    display: flex;
+    justify-content: space-between;
+}

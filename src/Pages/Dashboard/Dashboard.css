@@ -1,0 +1,53 @@
+
+.AddFriend{
+    height: 100vh;
+    width: 380px;
+}
+
+.friendHeader{
+    opacity: 0.5;  
+}
+.friendHeader:hover{
+    opacity: 0.9;
+}
+.Friend_List{
+    opacity: 0.8;
+}
+.friendlist{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.friendlist i{
+    margin-right: 15px;
+}
+.AddFrnd{
+    background: none;
+    border: none;
+}
+.AddFrnd:focus{
+    outline: none;
+}
+/* ********************* */
+.Middle{
+    height: 100vh;
+    width: 602px;
+    border: lightgray 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex{
+    display: flex;
+}
+.content{
+    height: 22px;
+    width: 148px;
+   
+    margin-top: 50px;
+    margin-left: 45%;
+    background: #EEEEEE;
+
+    
+    font-size: 13px;
+}
+
+/* *********************Middle Dashboard********************** */

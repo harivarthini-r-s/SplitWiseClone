@@ -1,0 +1,37 @@
+.right-contents{
+    margin-top: 3rem;
+    padding-left: 2rem;
+    width: 13rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+.right-split {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 450;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.right-contents img{
+    margin-bottom: 1rem;
+}
+.right-contents p{
+    margin-bottom: 1rem;
+}
+.download-btn{
+    background-color: rgb(255, 82, 22);
+    /* width: auto; */
+    height: max-content;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    background: #ff652f;
+    color: #fff;
+    text-shadow: 0 -1px 0 #c83400;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+}

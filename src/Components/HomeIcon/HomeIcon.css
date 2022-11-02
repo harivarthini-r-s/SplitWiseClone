@@ -1,0 +1,32 @@
+.icons {
+    display: flex;
+}
+svg{
+    height: 3rem;
+    width: 3rem;
+    margin : 0rem 0.75rem;
+}
+/* .plane{
+    fill: #a3e6d8;
+} */
+.plane{
+    fill: #1cc29f;
+}
+.home{
+    fill:#c9b6e6;
+}
+.heart{
+    fill: #d896a9;
+}
+.star{
+    fill: #a9acad;
+}
+/* .home{
+    fill:#8656cd;
+}
+.heart{
+    fill: #a6002f;
+}
+.star{
+    fill: #383b3f;
+} */

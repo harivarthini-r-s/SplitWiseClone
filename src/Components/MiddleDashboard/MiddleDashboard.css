@@ -1,0 +1,140 @@
+.Middle {
+    margin-top: 2rem;
+    }
+.middle-header {
+    display : flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    vertical-align: middle;
+    padding : 1rem;
+}
+.middle-header h1{
+    margin-top : 0.5rem;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333339;
+}
+.middle-header hr{
+    border-color: #dddddd;
+}
+.middle-list{
+    display:flex;
+    justify-content: space-around;
+    background-color: #eeeeee;
+    text-align: center;
+    padding : 0.5rem;
+    
+}
+.middle-list h3{
+    color: #9c9d9e;
+    font-size: 14px;
+    font-weight: 400;
+}
+.middle-list h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.vertical {
+    border-left: 1px solid #dddddd;
+    height: auto;
+    position:relative;
+}
+.expbtn{
+    background-color: rgb(255, 82, 22);
+    margin : 0rem 1rem 0rem;
+    height: max-content;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    background: #ff652f;
+    color: #fff;
+    text-shadow: 0 -1px 0 #c83400;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+}
+.setbtn {
+    background-color: rgb(91,197,167);
+    /* width: auto; */
+    height: max-content;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    /* background: #ff652f; */
+    color: #fff;
+    text-shadow: 0 -1px 0 #53a9a7;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+}
+.middle-card {
+    display: flex;
+    justify-content: space-around;
+    padding : 0.5rem;
+}
+.flex-list{
+    display:flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.flex-list h3{
+    color: #999999;
+    font-size: 14px;
+    font-weight: 500;
+}
+.flex-list button {
+    color: #c2c2c2;
+    border-color:  #ececec;
+    border-style: solid;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 0.1rem;
+    
+}
+.flex-list button:focus {
+    color: #000000;
+    border-color:  #b2b2b2;
+    border-style: solid;
+    background-color: #eeeeee;
+    border-radius: 2px;
+}
+.middle-list-owe {
+    display: flex;
+    /* justify-content: space-around; */
+    padding : 0.5rem;
+}
+.userlogo {
+    height: 2.5rem;
+    width : 2.5rem;
+    border-radius: 2.5rem;
+    margin : 0rem 0.5rem 0rem;
+}
+.list-1 {
+    display: flex;
+    width : 50%
+}
+.list-1 h3{
+    font-weight: 400;
+    font-size: 18px;
+}
+.list-1 h5{
+    font-weight: 400;
+    color: #ff6a3c;
+    font-size: 15px;
+}
+.list-2 {
+    display: flex;
+}
+.list-2 h3{
+    font-weight: 400;
+    font-size: 18px;
+}
+.list-2 h5{
+    font-weight: 400;
+    color: #53a9a7;
+    font-size: 15px;
+}
